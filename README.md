@@ -6,7 +6,7 @@
 # Description 
 This module is capable of reading up to 4 high-frequency PWM signals and to provide the user with accurate values via the serial communication. 
 
-The SW module runs on a NUCLEO-F303K8 board and makes use of advanced-control timer TIM1 and general-purpose timers TIM2, TIM3 and TIM4, which consist in 16-bit auto-reload counters and programmable prescalers. 
+The SW module runs on a NUCLEO-F401RE board and makes use of advanced-control timer TIM1 and general-purpose timers TIM2, TIM3 and TIM4, which consist in 16-bit auto-reload counters and programmable prescalers. 
 When configured in "Input capture" mode, these timers can be used to measure the pulse length of input signals. 
 
 The picture below shows the system architecture together with the general functioning: 
